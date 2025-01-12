@@ -1263,10 +1263,12 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.21.tgz#7e8a0c34cf29f4e17a36e9bd0ea72d45ba03908e"
   integrity sha512-CBgLNk4o3XMnqMc0rhb6lc77IwShMEglz05deDcn2lQxyXEZivfwgYJu7SMha9V5XcrP6qZuevTHV/QrN2vjKQ==
 
-"@types/node@^18.11.18":
-  version "18.16.19"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.19.tgz#cb03fca8910fdeb7595b755126a8a78144714eea"
-  integrity sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==
+"@types/node@^20.9.0":
+  version "20.17.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.17.12.tgz#ee3b7d25a522fd95608c1b3f02921c97b93fcbd6"
+  integrity sha512-vo/wmBgMIiEA23A/knMfn/cf37VnuF52nZh5ZoW0GWt4e4sxNquibrMRJ7UQsA06+MBx9r/H1jsI9grYjQCQlw==
+  dependencies:
+    undici-types "~6.19.2"
 
 "@types/responselike@^1.0.0":
   version "1.0.0"
@@ -3848,13 +3850,13 @@ electron-to-chromium@^1.4.668:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.717.tgz#99db370cae8cd090d5b01f8748e9ad369924d0f8"
   integrity sha512-6Fmg8QkkumNOwuZ/5mIbMU9WI3H2fmn5ajcVya64I5Yr5CcNmO7vcLt0Y7c96DCiMO5/9G+4sI2r6eEvdg1F7A==
 
-electron@28.2.8:
-  version "28.2.8"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-28.2.8.tgz#b83d70ca00c0e767f0125fcec85f39aafe39ee4c"
-  integrity sha512-VgXw2OHqPJkobIC7X9eWh3atptjnELaP+zlbF9Oz00ridlaOWmtLPsp6OaXbLw35URpMr0iYesq8okKp7S0k+g==
+electron@32.2.8:
+  version "32.2.8"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-32.2.8.tgz#4154e40a8e10cf7e2a892ed7176f849ad88536be"
+  integrity sha512-jaAgBeFKjH6Cd7CnG7XhApZtLz2ewUXLyf1rKh9D+eaFD5XCYQpH77PhmrT5u0IpSP6eSZoHpAQ0sMqOFsh6kA==
   dependencies:
     "@electron/get" "^2.0.0"
-    "@types/node" "^18.11.18"
+    "@types/node" "^20.9.0"
     extract-zip "^2.0.1"
 
 emoji-regex@^7.0.1:
@@ -10083,6 +10085,11 @@ undertaker@^1.2.1:
     object.defaults "^1.0.0"
     object.reduce "^1.0.0"
     undertaker-registry "^1.0.0"
+
+undici-types@~6.19.2:
+  version "6.19.8"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
+  integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
 
 union-value@^1.0.0:
   version "1.0.1"
